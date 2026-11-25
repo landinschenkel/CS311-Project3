@@ -1,0 +1,48 @@
+.registry {
+  margin-top: 28px;
+}
+
+.registry-search {
+  width: min(100%, 420px);
+}
+
+.character-card {
+  border-color: #d9cdbd;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.character-card:hover {
+  transform: translateY(-2px);
+}
+
+.character-card p {
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+.site-header__description {
+  max-width: 48rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.site-header__seal {
+  display: grid;
+  flex: 0 0 auto;
+  width: 76px;
+  height: 76px;
+  place-items: center;
+  border: 2px solid #f5cf54;
+  border-radius: 50%;
+  color: #f5cf54;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  transform: rotate(-8deg);
+}
+
+.pagination-controls button {
+  min-width: 96px;
+}
